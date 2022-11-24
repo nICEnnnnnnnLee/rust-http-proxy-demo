@@ -1,0 +1,31 @@
+[package]
+name = "s03_async_http_proxy"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# 用于静态初始化
+lazy_static = "1.4.0"
+# 用于异步
+tokio = { version = "1", features = ["full"] }
+# 用于全局配置
+# once_cell = "1.16.0"
+# 用于计算MD5
+# rust-crypto = "^0.2"
+# 用于tls
+# tokio-rustls = { version = "0.23.4", features = ["dangerous_configuration"] }
+# webpki-roots = "0.22"
+# #rustls = { version = "0.20.7", features = ["dangerous_configuration"] }
+# #webpki = { version = "0.22.0", features = ["alloc", "std"] }
+
+# 用于正则
+regex = "1.5.4"
+
+# 用于读取yaml配置文件
+# serde = { version = "1", features = ["derive"] }
+# serde_yaml = "0.8"
+
+# 用于证书加载
+# rustls-pemfile = "0.2"

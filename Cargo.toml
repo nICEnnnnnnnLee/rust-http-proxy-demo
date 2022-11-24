@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "s01_global_config", 
+    "s02_sync_http_proxy", 
+    "s03_async_http_proxy", 
+    "s04_async_https_connection_via_tcp"
+]
